@@ -1085,6 +1085,14 @@ img {
   padding: 2.5em 6em 2.5em 0;
 }
 
+@media (max-width: 420px) {
+.content-sec {
+  width: 90%;
+  padding: 2em 5% 2em 5%;
+  float: none;
+}
+}
+
 .content-sec a{
   color: #5689C6;
   text-decoration: underline;
@@ -1094,6 +1102,12 @@ img {
   font-size: 1.2em;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+@media (max-width: 420px) {
+.content-sec p{
+  font-size: 1.1em;
+}
 }
 
 .content-sec .intro p{
@@ -1117,8 +1131,20 @@ img {
   list-style-position: outside;
 }
 
+@media (max-width: 420px) {
+.content-sec ul{
+  font-size: 1.1em;
+}
+}
+
 .container.list{
   padding: 1em 3em;
+}
+
+@media (max-width: 420px) {
+.container.list{
+  padding: 1em 2em;
+}
 }
 
 .content#SA h2, .content#SA h3, .content#SA h4, .content#SA li {
@@ -1137,14 +1163,41 @@ img {
   margin-top: -20em;
 }
 
+@media (max-width: 420px) {
+.persona{
+  margin-top: -10em;
+}
+}
+
 .brands img{
   width: 25%;
   float: left;
   margin-bottom: 1em;
 }
 
+@media (max-width: 420px) {
+.brands {
+  text-align: center;
+}
+}
+
+@media (max-width: 420px) {
+.brands img{
+  width: 60%;
+  float: none;
+  margin-bottom: 1em;
+}
+}
+
 .brand2{
   margin-left: 12.5%;
+}
+
+@media (max-width: 420px) {
+.brand2{
+  margin-left: 0;
+}
+
 }
 
 .stories img{
@@ -1177,6 +1230,18 @@ img {
   position: absolute;
   top: 45%;
   right: 5%;
+}
+
+@media (max-width: 420px) {
+.slider .prev-cs{
+  left: 0;
+}
+}
+
+@media (max-width: 420px) {
+.slider .next-cs{
+  right: 0;
+}
 }
 
 .thanks{
