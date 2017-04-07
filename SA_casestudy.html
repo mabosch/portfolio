@@ -5,7 +5,7 @@
 <!-- Basic Page Needs
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Marc Aballi</title>
+  <title>MA_Sound Around</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -17,13 +17,19 @@
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
 <!-- CSS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- JS
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+  <script src="js/jquery.scrollNav.min.js"></script>
 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -63,7 +69,10 @@
   <!-- CS Content - Intro
 ================================================== -->  
     <article class="content" id="SA">
-      <div class="container grey">
+
+      <a href="#" id="back-to-top" title="Back to top"><i class="fa fa-angle-double-up
+ fa-fw" aria-hidden="true"></i></a>
+      <div class="container blue">
         <div class="content-sec">
           <div class="intro">
 
@@ -75,7 +84,7 @@
 
   <!-- CS Content - Problem
 ================================================== -->  
-      <div class="container blue">
+      <div class="container grey">
         <div class="content-sec">
           <div class="problem">
 
@@ -94,7 +103,7 @@
 
   <!-- CS Content - Solution
 ================================================== -->  
-      <div class="container grey">
+      <div class="container blue">
         <div class="content-sec">
           <div class="solution">
 
@@ -110,7 +119,7 @@
 
 <!-- CS Content - Process
 ================================================== -->  
-      <div class="container blue">
+      <div class="container grey">
         <div class="content-sec">
           <div class="process">
 
@@ -120,16 +129,8 @@
 
             <img src="images/SA_mindmap.png">
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - research
 ================================================== -->  
-      <div class="container grey">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>Getting to know the user</h3>
 
             <p>To begin outlining a solution, we must first know what needs to be solved, and whether our assumptions about user needs are right or not. We don’t want to build something that nobody needs!</p>
@@ -159,16 +160,8 @@
               </ul>
             </div>
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - personas
 ================================================== -->  
-      <div class="container blue">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>User Personas</h3>
 
             <p>Although the questionnaire has confirmed most of our assumptions, it’s important to frame these responses and numbers into something more tangible, and that helps us design throughout the entire process.</p>
@@ -181,36 +174,21 @@
               <img class="persona" src="images/SA_persona3.png">
             </div>
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - competition
 ================================================== -->  
-      <div class="container grey">
-        <div class="content-sec">
-          <div class="process">
             <h3>Understanding the competition</h3>
             <p>In order to continue the process of research, we also perform an analysis of possible competitors. Although the survey makes us think that the vast majority of respondents don’t use or know any similar apps, inquiring a little, we find similar and powerful projects to take into account. Knowing them to imitate their virtues and get away from their weaknesses will be very useful to design our product. We’ll perfom <a target="_blank" href="https://docs.google.com/document/d/1NZ3dGnF8jsHa6Uzgb2WSW2D5KeeE-QQPrTYrOtvQDCo/edit?usp=sharing">a SWOT analysis</a> on these three brands.</p>
 
             <div class="brands">
-              <img src="images/SA_songkick.png">
-              <img class="brand2" src="images/SA_bandsintown.png">
+              <img src="images/SA_Songkick.png">
+              <img class="brand2" src="images/SA_Bandsintown.png">
               <img class="brand2" src="images/SA_spotify.png">
             </div>
 
             <p>These three applications pursue some of the objectives we want to achieve but, for some reasons, all of them are products that can be improved in a graphic and usability level. This allows us to be optimistic and think that we are trying to enter in a market that still has room for improvement, and in which is possible to include new products like our. </p>
-            
-          </div>
-        </div>
-      </div>
 
 <!-- CS Content - Process - flows & stories
 ================================================== -->  
-      <div class="container blue">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>User stories & flows</h3>
 
             <p>Once all this research and analysis has been done, and thanks to all the information gathered, we are able to start defining our MVP, and the main flows that need to be solved. With that in mind, we write a list of “user stories”, to clarify where to focus. We also design the most important flows corresponding to these “stories” taking into account everything learned, and knowing that they’ll probably evolve later.</p>
@@ -237,16 +215,8 @@
               <img src="images/SA_main-flows.png">
             </div>
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - Branding
 ================================================== -->  
-      <div class="container grey">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>Creating an identity</h3>
 
             <p>To connect with our users, we must design an app with an attractive and unique style, but at the same time intuitive and pleasant to use. Creating moments of excitement and harnessing them to catch our fans is key for the success of the product. We are also interested in using patterns, both visual and behavioral, that our users are familiar with. This is why we decide that the app will have a range of colors based on dark grays, reminiscent of the ones used by Spotify, with a very striking orange, which we will use to highlight the most important elements. This orange will also be our corporate color. For the typography we simply want to use a couple of fonts that look modern and that are easy to read. However, for the logo letters we’ll use a more “retro” typeface, that has more personality. Hopefully, that will make our barnd very recognizable.</p>
@@ -269,21 +239,13 @@
               <img src="images/SA_logo-final.png">
             </div>
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - Lo-Fi
 ================================================== -->  
-      <div class="container blue">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>Low-fi wireframes</h3>
 
             <p>At this point, we realize that we need to do a little bit more research on important aspects, in order to be able to correctly design our main flows, specially the onboarding process.</p>
 
-            <div class="container list grey">
+            <div class="container list blue">
               <ul>
                 <li>Which music apps do our users use?</li>
                 <li>How do they use these music apps?</li>
@@ -294,7 +256,7 @@
 
             <p>To gather that valuable information, we elaborate and distribute a new form that will allow us to have the answer to all these and some other questions. And we discover that…</p>
 
-            <div class="container list grey">
+            <div class="container list blue">
               <ul>
                 <li>The most used music apps are YouTube (80%) and Spotify (72%). iTunes is the third one but is also much less used (44%).</li>
                 <li>It’s also relevant that a 44% of the respondants still download the music they like to hev it in their devices.</li>
@@ -321,16 +283,8 @@
               <img src="images/SA_onboard-flow2.png">
             </div>
 
-          </div>
-        </div>
-      </div>
-
 <!-- CS Content - Process - Hi-Fi
 ================================================== -->  
-      <div class="container grey">
-        <div class="content-sec">
-          <div class="process">
-
             <h3>Hi-fi wireframes</h3>
 
             <p>In order to materialize more accurately all the information we are collecting, we begin to draw the main screens in more detail. During this step of the creation process, we’ll look at the patterns and guides established by Google and its Material Design. That way we can establish with ease the main lines of our design, and ensure that these will be easy to produce from a development point of view. In this phase put our focus on the most important features of the app, since, once finished the first version, we want to build a prototype that allows us to test the main flows. Therefore, it’s necessary to precisely design all the steps of the onboarding process, as well as the screens corresponding to the main navigation within the app and it’s main actions (seeing the list of events and detailed information of each one, seeing the list of artists and provinding ways to follow more, and being able to manage the settings div).</p>
@@ -366,7 +320,7 @@
 
  <!-- CS Content - Conclusions
 ================================================== -->  
-      <div class="container blue">
+      <div class="container grey">
         <div class="content-sec">
           <div class="conclusions">
 
@@ -421,10 +375,12 @@
           </div>
 
           <div class="form">
-            <input type="text" placeholder="name"/>
-            <input type="email" placeholder="e-mail"/> 
-            <textarea name="message" placeholder="message"></textarea> 
-            <input class="btn-send" type="submit" value="Send" name="Send">       
+            <form action="https://formspree.io/marc.abosch@gmail.com" method="POST">
+              <input type="text" name="name" placeholder="name">
+              <input type="email" name="email" placeholder="email">
+              <textarea name="message" placeholder="message"></textarea>
+              <button type="submit">Send</button>
+            </form>
           </div>
            
         </div>
@@ -448,11 +404,44 @@
 
 <!-- JS
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src="js/jquery-3.1.1.min.js"</>
-  <script src="js/jquery.scrollNav.min.js"></script>
   <script type="text/javascript">
-    $(".content").scrollNav();
-  </script>
+      $('.content').scrollNav({
+        sections: 'h2',
+        subSections: 'h3',
+        showHeadline: false,
+        // headlineText: 'Marc',
+        showTopLink: false,
+        animated: true,
+        fixedMargin: 80,
+        scrollOffset: 200,
+        insertTarget: 'article.content',
+        insertLocation: 'insertAfter',
+        arrowKeys: true,
+      });
+
+      if ($('#back-to-top').length) {
+          var scrollTrigger = 100, // px
+              backToTop = function () {
+                  var scrollTop = $(window).scrollTop();
+                  if (scrollTop > scrollTrigger) {
+                      $('#back-to-top').addClass('show');
+                  } else {
+                      $('#back-to-top').removeClass('show');
+                  }
+              };
+          backToTop();
+          $(window).on('scroll', function () {
+              backToTop();
+          });
+          $('#back-to-top').on('click', function (e) {
+              e.preventDefault();
+              $('html,body').animate({
+                  scrollTop: 0
+              }, 700);
+          });
+      }
+
+    </script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
